@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: var(--bg-page);
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_bar a {
+  flex-direction: row;
+}
+
+main {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+section {
+  margin-block: var(--space-2xl) 0;
+}
+
+footer {
+  margin-block: var(--space-2xl) 0;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+#work ul {
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.project_card {
+  padding: var(--space-md);
+}

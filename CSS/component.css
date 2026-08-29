@@ -1,0 +1,61 @@
+.project_card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.project_card:hover {
+  background: var(--bg-card-hover);
+}
+
+.badge {
+  background: var(--badge-bg);
+  color: (--badge-text);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-caption);
+  font-family: var(--font-mono);
+}
+
+.tech_tags li {
+  background: var(--bg-page);
+  border: 1px var(--border) solid;
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+}
+
+.project_links a {
+  border: 1px solid var(--accent);
+  padding: 2px 2px;
+  margin: 2px 2px;
+  border-radius: var(--radius-sm);
+  color: var(--accent);
+}
+
+.project_links a:hover {
+  background: var(--accent);
+  color: var(--accent-text-on-light);
+}
+
+.nav_bar a {
+  color: var(--text-primary);
+}
+
+.nav_bar a:hover {
+  color: var(--accent);
+}
+
+.nav_bar a:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.logo {
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-sans);
+}
