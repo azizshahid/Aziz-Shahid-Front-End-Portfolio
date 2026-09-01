@@ -10,7 +10,7 @@
 
 .badge {
   background: var(--badge-bg);
-  color: (--badge-text);
+  color: var (--badge-text);
   border-radius: var(--radius-sm);
   font-size: var(--fs-caption);
   font-family: var(--font-mono);
