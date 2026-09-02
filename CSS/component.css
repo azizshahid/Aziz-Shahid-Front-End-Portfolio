@@ -1,19 +1,35 @@
 .project_card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
 .project_card:hover {
   background: var(--bg-card-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.35);
 }
 
 .badge {
   background: var(--badge-bg);
-  color: var (--badge-text);
-  border-radius: var(--radius-sm);
+  color: var(--badge-text);
+  border-radius: 999px;
   font-size: var(--fs-caption);
   font-family: var(--font-mono);
+  padding: 4px 10px;
+  margin: 10px 4px;
+}
+
+article {
+  border-radius: 10px;
+}
+
+.tech_tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
 }
 
 .tech_tags li {
@@ -21,14 +37,22 @@
   border: 1px var(--border) solid;
   font-family: var(--font-mono);
   font-size: var(--fs-small);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.project_links {
+  margin: 14px 6px;
+  list-style: none;
 }
 
 .project_links a {
   border: 1px solid var(--accent);
-  padding: 2px 2px;
+  padding: 6px 14px;
   margin: 2px 2px;
   border-radius: var(--radius-sm);
   color: var(--accent);
+  text-decoration: none;
 }
 
 .project_links a:hover {
@@ -59,3 +83,4 @@ h3,
 h4 {
   font-family: var(--font-sans);
 }
+

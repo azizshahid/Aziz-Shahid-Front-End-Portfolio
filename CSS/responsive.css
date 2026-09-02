@@ -1,4 +1,10 @@
-@media (min-width: 300px) and (max-width: 640px) {
+@media  (min-width: 640px) {
+
+  /* #skills {
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
+
   .nav_bar {
     display: flex;
     flex-direction: column;
@@ -9,6 +15,11 @@
 
 @media (min-width: 900px) {
   #work ul {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .project_card {
+    flex: 1 1 45%;
   }
 }

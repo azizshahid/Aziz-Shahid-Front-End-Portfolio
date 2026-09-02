@@ -20,6 +20,11 @@ header {
   justify-content: space-between;
 }
 
+.nav_links {
+  display: flex;
+  gap: var(--space-lg);
+}
+
 .nav_bar a {
   flex-direction: row;
 }
@@ -30,8 +35,14 @@ main {
 }
 
 section {
-  margin-block: var(--space-2xl) 0;
+  margin-block: var(--space-xl) 0;
 }
+
+section > h2 {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-xs);
+  margin-bottom: var(--space-md);
+} 
 
 footer {
   margin-block: var(--space-2xl) 0;
