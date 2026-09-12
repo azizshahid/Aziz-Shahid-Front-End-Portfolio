@@ -73,6 +73,10 @@ article {
   box-shadow: var(--focus-ring);
 }
 
+.nav_links a.active {
+  color: var(--accent);
+}
+
 .logo {
   font-family: var(--font-sans);
 }
